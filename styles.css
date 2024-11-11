@@ -75,8 +75,8 @@ h2::after {
 .grid-productos {
     display: grid;
     grid-template-columns: repeat(3, minmax(200px, 1fr));
-    gap: 20px; /* Espacio entre las tarjetas */
-    padding: 0 20px; /* Espacio a los lados (izquierda y derecha) del contenedor */
+    gap: 20px; 
+    padding: 0 20px; 
 }
 
 .producto {
@@ -84,18 +84,18 @@ h2::after {
     border: 1px solid #ddd;
     border-radius: 8px;
     overflow: hidden;
-    padding: 20px; /* Espaciado interno ajustado */
+    padding: 20px; 
     text-align: center;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Sombra más suave */
-    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Transición para el hover */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.2s ease, box-shadow 0.2s ease; 
     display: flex;
     flex-direction: column;
-    height: 100%; /* Asegura que todas las tarjetas tengan la misma altura */
+    height: 100%; 
 }
 
 .producto:hover {
-    transform: translateY(-5px); /* Efecto al elevar la tarjeta */
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15); /* Sombra más fuerte en hover */
+    transform: translateY(-5px); 
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15); 
 }
 
 .producto img {
@@ -103,7 +103,7 @@ h2::after {
     height: auto;
     object-fit: cover;
     border-radius: 5px;
-    margin-bottom: auto; /* Empuja el nombre hacia abajo */
+    margin-bottom: auto; 
 }
 
 .producto h3 {
@@ -111,7 +111,7 @@ h2::after {
     color: #333;
     font-weight: bold;
     margin-top: 10px;
-    margin-bottom: 10px; /* Asegura que haya espacio antes del precio */
+    margin-bottom: 10px; 
 }
 
 .producto p {
@@ -129,7 +129,7 @@ h2::after {
     cursor: pointer;
     font-size: 1rem;
     transition: background-color 0.3s ease;
-    margin-top: auto; /* Empuja el botón hacia la parte inferior */
+    margin-top: auto; 
 }
 
 .producto button:hover {
