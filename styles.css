@@ -139,6 +139,31 @@ h2 {
     background-color: #000000;
 }
 
+#finalizar-compra {
+    background-color: #ff0f0f; 
+    color: white; 
+    border: none; 
+    border-radius: 8px; 
+    padding: 12px 25px; 
+    font-size: 1rem; 
+    font-weight: bold; 
+    cursor: pointer; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: all 0.3s ease; 
+}
+
+#finalizar-compra:hover {
+    background-color: #ff0c0c; 
+    transform: scale(1.05); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); 
+}
+
+#finalizar-compra:active {
+    background-color: rgb(0, 0, 0); 
+    transform: scale(0.95); 
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2); 
+}
+
 footer {
     background-color: #ff4545;
     color: #fff;

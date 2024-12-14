@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FizzConnio Store</title>
+    <title>FizzCornio Store</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
 </head>
 <body>
     <header>
@@ -15,6 +17,7 @@
             <img src="./img/carrito.png" alt="Carrito">
             <p>Total: $<span id="total-carrito">0</span></p>
             <button id="vaciar-carrito">Vaciar Carrito</button>
+            <button id="finalizar-compra">Finalizar Compra</button>
         </div>
     </header>
 
@@ -26,6 +29,10 @@
             <h2>Catálogo de Productos</h2>
             <div class="grid-productos"></div>
         </section>
+        <section class="carrito-detalle">
+            <h2>Cosas agregadas al carrito</h2>
+            <div class="carrito-productos"></div>
+        </section>
     </main>
 
     <footer>
@@ -34,7 +41,7 @@
                 <img src="./img/logo.png" alt="FizzConnio Logo">
             </div>
             <div class="footer-text">
-                © 2024 FizzConnio - Todos los derechos reservados
+                © 2024 FizzCornio - Todos los derechos reservados
             </div>
         </div>
     </footer>
